@@ -1,18 +1,99 @@
 body {
-  background: pink;
+  background: rgb(109, 250, 168);
 }
 h1 {
   text-align: center;
 }
 /*
-  position: absolute;
-  position: fixed;
-  position: sticky;
+   position: absolute;
+   position: fixed;
+   position: sticky;
 */
+h2{
+  text-align: left;
+  position: relative;
+}
+h3 {
+  font-size: 40px;
+  line-height: 10px;
+  line-height: 30px;
+  line-clamp: 10%;
+}
 .caixa1 {
-    position: relative;
-    width: 200px;
-    heigth: 200px;
-    background: #AABBBB;
-    left: 50%;
+   position: relative;
+   width: 200px;
+   height: 200px;
+   background: #73caca;
+   left: 50px;
+}
+.menuPrincipal {
+  position: absolute; 
+  background: rgb(46, 189, 134);
+  width: 100%;
+  height: 45px;
+  top: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(51, 48, 219);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+li a:hover {
+  background: rgba(8, 94, 8, 0.185);
+}
+.BoxImage {
+  width: 500px;
+  height: 350px;
+  background:rgb(241, 82, 33);
+  top: 45px;
+  left: 0;
+  margin: 20px;
+  border-color: rgb(194, 58, 24);
+  border-width: 10px;
+  border-style: groove;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+#oikawa {
+  width: 70%;
+  height: 99%;
+}
+#iwa{
+  width: 70%;
+  height: 105%;
+  position: left;
+}
+.rodape {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  color:rgb(237, 228, 247) ;
+  background:rgb(8, 95, 69);
+  left: 0;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+.conteudoHome{
+  position: absolute;
+  top: 45px;
+}
+#pag1 {
+  text-align: 100px;
+}
+ #daichi, pag1 {
+  display: inline-block;
 }
